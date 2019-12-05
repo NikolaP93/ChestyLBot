@@ -1,9 +1,10 @@
 // setup
+import apiKey from './node_modules/'
 const Telegraf = require('telegraf')
 const Extra = require('telegraf/extra')
 const Markup = require('telegraf/markup');
 const fetch = require('node-fetch');
-const bot = new Telegraf('911945400:AAFfi9iLUltUpqZ0Q5UjJWh3tC60RkeBuro');
+const bot = new Telegraf('API-KEY');
 
 const keyboard = Markup.inlineKeyboard([
     Markup.urlButton('❤️', 'http://telegraf.js.org'),
